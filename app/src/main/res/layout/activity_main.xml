@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <TextView
+        style="@style/FontTheme40"
+        android:id="@+id/textViewInputNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/textViewInputNumbers" />
+
+    <LinearLayout
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton7"
+            android:text="@string/textViewButton7" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton8"
+            android:text="@string/textViewButton8" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton9"
+            android:text="@string/textViewButton9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton4"
+            android:text="@string/textViewButton4" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton5"
+            android:text="@string/textViewButton5" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton6"
+            android:text="@string/textViewButton6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton1"
+            android:text="@string/textViewButton1" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton2"
+            android:text="@string/textViewButton2" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton3"
+            android:text="@string/textViewButton3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButton0"
+            android:text="@string/textViewButton0"
+            android:layout_weight="1" />
+        <TextView
+            style="@style/FontTheme40"
+            android:id="@+id/textViewButtonDot"
+            android:text="@string/textViewButtonDot"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:text="EXAMPLE"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:shape="rectangle"
+        android:radius="5dp"
+        android:background="@color/colorExample"
+
+    />
+
+
+</LinearLayout>
