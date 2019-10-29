@@ -93,15 +93,15 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_weight="1"
+        android:background="@color/colorExample"
         android:gravity="center|center_horizontal"
-        android:text="EXAMPLE"
+        android:radius="5dp"
+        android:shape="rectangle"
+        android:text="@string/textViewExample"
         android:textAlignment="center"
         android:textSize="40sp"
-        android:shape="rectangle"
-        android:radius="5dp"
-        android:background="@color/colorExample"
 
-    />
+        />
 
 
 </LinearLayout>

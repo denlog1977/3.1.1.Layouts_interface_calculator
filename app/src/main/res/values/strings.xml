@@ -12,4 +12,6 @@
     <string name="textViewButton9">9</string>
     <string name="textViewButton0">0</string>
     <string name="textViewButtonDot">.</string>
+    <string name="textViewExample">Очистить</string>
+
 </resources>
