@@ -19,7 +19,8 @@
             android:layout_weight="1"
             android:background="@color/colorBlack"
             android:text="@string/textViewInputNumbers"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF"
+            />
 
         <LinearLayout
             android:id="@+id/row0"
